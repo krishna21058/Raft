@@ -1,0 +1,90 @@
+Vote granted for Node 1 in term 5.
+Vote denied for Node 4 in term 5.
+Leader 3 lease renewal failed. Stepping Down.
+3 Stepping down.
+Node 3 accepted AppendEntries RPC from 1.
+Node 3 accepted AppendEntries RPC from 1.
+Node 3 accepted AppendEntries RPC from 1.
+Node 3 accepted AppendEntries RPC from 1.
+Node 3 accepted AppendEntries RPC from 1.
+Node 3 accepted AppendEntries RPC from 1.
+Node 3 accepted AppendEntries RPC from 1.
+Node 3 accepted AppendEntries RPC from 1.
+Node 3 accepted AppendEntries RPC from 1.
+Node 3 accepted AppendEntries RPC from 1.
+Node 3 accepted AppendEntries RPC from 1.
+Node 3 accepted AppendEntries RPC from 1.
+Node 3 accepted AppendEntries RPC from 1.
+Node 3 (follower) committed the entry SET to the state machine.
+Node 3 accepted AppendEntries RPC from 1.
+Node 3 accepted AppendEntries RPC from 1.
+Node 3 accepted AppendEntries RPC from 1.
+Node 3 accepted AppendEntries RPC from 1.
+Node 3 accepted AppendEntries RPC from 1.
+Node 3 accepted AppendEntries RPC from 1.
+Node 3 (follower) committed the entry SET to the state machine.
+Node 3 (follower) committed the entry SET to the state machine.
+Node 3 accepted AppendEntries RPC from 1.
+Node 3 accepted AppendEntries RPC from 1.
+Node 3 accepted AppendEntries RPC from 1.
+Node 3 accepted AppendEntries RPC from 1.
+Node 3 election timer timed out, Starting election.
+Node 3 election timer timed out, Starting election.
+Leader 3 lease renewal failed. Stepping Down.
+3 Stepping down.
+Node 3 election timer timed out, Starting election.
+Error occurred while sending RPC to Node localhost:50051.
+Vote denied for Node 4 in term 6.
+Vote denied for Node 2 in term 6.
+Error occurred while sending RPC to Node localhost:50055.
+Node 3 election timer timed out, Starting election.
+Error occurred while sending RPC to Node localhost:50051.
+Vote denied for Node 2 in term 7.
+Error occurred while sending RPC to Node localhost:50055.
+Vote granted for Node 4 in term 8.
+Leader 3 lease renewal failed. Stepping Down.
+Node 3 accepted AppendEntries RPC from 4.
+Node 3 accepted AppendEntries RPC from 4.
+3 Stepping down.
+Node 3 accepted AppendEntries RPC from 4.
+Node 3 accepted AppendEntries RPC from 4.
+Node 3 accepted AppendEntries RPC from 4.
+Node 3 (follower) committed the entry SET to the state machine.
+Node 3 (follower) committed the entry SET to the state machine.
+Node 3 (follower) committed the entry SET to the state machine.
+Node 3 accepted AppendEntries RPC from 4.
+Node 3 accepted AppendEntries RPC from 4.
+Node 3 accepted AppendEntries RPC from 4.
+Vote denied for Node 1 in term 6.
+Node 3 accepted AppendEntries RPC from 4.
+Node 3 accepted AppendEntries RPC from 4.
+Vote denied for Node 1 in term 7.
+Node 3 accepted AppendEntries RPC from 4.
+Node 3 accepted AppendEntries RPC from 4.
+Node 3 accepted AppendEntries RPC from 4.
+Node 3 accepted AppendEntries RPC from 4.
+Node 3 accepted AppendEntries RPC from 4.
+Node 3 accepted AppendEntries RPC from 4.
+Node 3 accepted AppendEntries RPC from 4.
+Vote denied for Node 1 in term 8.
+Node 3 accepted AppendEntries RPC from 4.
+Node 3 accepted AppendEntries RPC from 4.
+Node 3 accepted AppendEntries RPC from 4.
+Node 3 accepted AppendEntries RPC from 4.
+Node 3 accepted AppendEntries RPC from 4.
+Node 3 election timer timed out, Starting election.
+Node 3 election timer timed out, Starting election.
+Node 3 accepted AppendEntries RPC from 4.
+Leader 3 lease renewal failed. Stepping Down.
+3 Stepping down.
+Node 3 election timer timed out, Starting election.
+Leader 3 lease renewal failed. Stepping Down.
+Node 3 rejected AppendEntries RPC from 4.
+Node 3 rejected AppendEntries RPC from 4.
+3 Stepping down.
+Error occurred while sending RPC to Node localhost:50051.
+Error occurred while sending RPC to Node localhost:50052.
+Error occurred while sending RPC to Node localhost:50055.
+Node 3 election timer timed out, Starting election.
+Vote denied for Node 4 in term 10.
+Error occurred while sending RPC to Node localhost:50051.

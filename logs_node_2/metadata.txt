@@ -1,0 +1,3 @@
+Current Term: 8
+Commit Length: 3
+VotedFor: 4

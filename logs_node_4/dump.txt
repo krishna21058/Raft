@@ -1,0 +1,131 @@
+Node 4 election timer timed out, Starting election.
+Vote granted for Node 1 in term 5.
+Error occurred while sending RPC to Node localhost:50055.
+Leader 4 lease renewal failed. Stepping Down.
+4 Stepping down.
+Node 4 accepted AppendEntries RPC from 1.
+Node 4 accepted AppendEntries RPC from 1.
+Node 4 accepted AppendEntries RPC from 1.
+Node 4 accepted AppendEntries RPC from 1.
+Node 4 accepted AppendEntries RPC from 1.
+Node 4 accepted AppendEntries RPC from 1.
+Node 4 accepted AppendEntries RPC from 1.
+Node 4 accepted AppendEntries RPC from 1.
+Node 4 accepted AppendEntries RPC from 1.
+Node 4 accepted AppendEntries RPC from 1.
+Node 4 accepted AppendEntries RPC from 1.
+Node 4 accepted AppendEntries RPC from 1.
+Node 4 accepted AppendEntries RPC from 1.
+Node 4 (follower) committed the entry SET to the state machine.
+Node 4 accepted AppendEntries RPC from 1.
+Node 4 accepted AppendEntries RPC from 1.
+Leader 4 lease renewal failed. Stepping Down.
+Node 4 recovered successfully.
+4 Stepping down.
+Node 4 accepted AppendEntries RPC from 1.
+Node 4 (follower) committed the entry SET to the state machine.
+Node 4 accepted AppendEntries RPC from 1.
+Node 4 accepted AppendEntries RPC from 1.
+Node 4 accepted AppendEntries RPC from 1.
+Node 4 accepted AppendEntries RPC from 1.
+Node 4 election timer timed out, Starting election.
+Node 4 election timer timed out, Starting election.
+Node 4 election timer timed out, Starting election.
+Node 4 election timer timed out, Starting election.
+Leader 4 lease renewal failed. Stepping Down.
+4 Stepping down.
+Node 4 election timer timed out, Starting election.
+Error occurred while sending RPC to Node localhost:50051.
+Vote denied for Node 3 in term 6.
+Vote denied for Node 2 in term 6.
+Error occurred while sending RPC to Node localhost:50055.
+Vote granted for Node 3 in term 7.
+Vote denied for Node 2 in term 7.
+Node 4 election timer timed out, Starting election.
+Error occurred while sending RPC to Node localhost:50051.
+Error occurred while sending RPC to Node localhost:50055.
+New Leader waiting for Old Leader Lease to timeout.
+Node 4 became the leader for term 8.
+Leader 4 sending heartbeat & Renewing Lease.
+Error occurred while sending RPC to Node localhost:50051.
+Error occurred while sending RPC to Node localhost:50051.
+Error occurred while sending RPC to Node localhost:50055.
+Error occurred while sending RPC to Node localhost:50055.
+Leader 4 sending heartbeat & Renewing Lease.
+Node 4 (leader) received an SET request.
+Error occurred while sending RPC to Node localhost:50051.
+Error occurred while sending RPC to Node localhost:50051.
+Error occurred while sending RPC to Node localhost:50055.
+Error occurred while sending RPC to Node localhost:50055.
+Node 4 (leader) committed the entry SET to the state machine.
+Leader 4 sending heartbeat & Renewing Lease.
+Error occurred while sending RPC to Node localhost:50051.
+Node 4 (leader) received an GET request.
+Error occurred while sending RPC to Node localhost:50055.
+Leader 4 sending heartbeat & Renewing Lease.
+Error occurred while sending RPC to Node localhost:50051.
+Error occurred while sending RPC to Node localhost:50055.
+Leader 4 sending heartbeat & Renewing Lease.
+Error occurred while sending RPC to Node localhost:50051.
+Error occurred while sending RPC to Node localhost:50055.
+Leader 4 sending heartbeat & Renewing Lease.
+Error occurred while sending RPC to Node localhost:50051.
+Vote denied for Node 1 in term 6.
+Error occurred while sending RPC to Node localhost:50055.
+Leader 4 sending heartbeat & Renewing Lease.
+Error occurred while sending RPC to Node localhost:50051.
+Error occurred while sending RPC to Node localhost:50055.
+Leader 4 sending heartbeat & Renewing Lease.
+Error occurred while sending RPC to Node localhost:50051.
+Vote denied for Node 1 in term 7.
+Error occurred while sending RPC to Node localhost:50055.
+Leader 4 sending heartbeat & Renewing Lease.
+Error occurred while sending RPC to Node localhost:50051.
+Error occurred while sending RPC to Node localhost:50055.
+Leader 4 sending heartbeat & Renewing Lease.
+Error occurred while sending RPC to Node localhost:50051.
+Error occurred while sending RPC to Node localhost:50055.
+Leader 4 sending heartbeat & Renewing Lease.
+Error occurred while sending RPC to Node localhost:50051.
+Error occurred while sending RPC to Node localhost:50055.
+Leader 4 sending heartbeat & Renewing Lease.
+Error occurred while sending RPC to Node localhost:50051.
+Error occurred while sending RPC to Node localhost:50055.
+Leader 4 sending heartbeat & Renewing Lease.
+Error occurred while sending RPC to Node localhost:50051.
+Error occurred while sending RPC to Node localhost:50055.
+Leader 4 sending heartbeat & Renewing Lease.
+Error occurred while sending RPC to Node localhost:50051.
+Error occurred while sending RPC to Node localhost:50055.
+Leader 4 sending heartbeat & Renewing Lease.
+Error occurred while sending RPC to Node localhost:50051.
+Error occurred while sending RPC to Node localhost:50055.
+Leader 4 sending heartbeat & Renewing Lease.
+Vote denied for Node 1 in term 8.
+Error occurred while sending RPC to Node localhost:50055.
+Leader 4 sending heartbeat & Renewing Lease.
+Error occurred while sending RPC to Node localhost:50055.
+Leader 4 sending heartbeat & Renewing Lease.
+Error occurred while sending RPC to Node localhost:50055.
+Leader 4 sending heartbeat & Renewing Lease.
+Error occurred while sending RPC to Node localhost:50055.
+Leader 4 sending heartbeat & Renewing Lease.
+Error occurred while sending RPC to Node localhost:50055.
+Leader 4 sending heartbeat & Renewing Lease.
+Error occurred while sending RPC to Node localhost:50051.
+Error occurred while sending RPC to Node localhost:50052.
+Node 4 (leader) received an SET request.
+Error occurred while sending RPC to Node localhost:50055.
+Leader 4 sending heartbeat & Renewing Lease.
+Leader 4 lease renewal failed. Stepping Down.
+4 Stepping down.
+Error occurred while sending RPC to Node localhost:50051.
+Error occurred while sending RPC to Node localhost:50051.
+Error occurred while sending RPC to Node localhost:50052.
+Error occurred while sending RPC to Node localhost:50052.
+Error occurred while sending RPC to Node localhost:50055.
+Error occurred while sending RPC to Node localhost:50055.
+Vote denied for Node 3 in term 9.
+Node 4 election timer timed out, Starting election.
+Error occurred while sending RPC to Node localhost:50051.
+Error occurred while sending RPC to Node localhost:50052.
