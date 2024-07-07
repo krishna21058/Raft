@@ -36,7 +36,7 @@ class RaftClient:
 
 
 def main():
-    node_ips = ['34.70.228.40:50051', '35.193.190.224:50052', '34.71.75.56:50053', '34.135.218.39:50054', '35.226.130.79:50055']
+    node_ips = ["localhost:50051", "localhost:50052", "localhost:50053", "localhost:50054", "localhost:50055"]
     client = RaftClient(node_ips)
     
     while True:

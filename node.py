@@ -89,13 +89,10 @@ class RaftNodeImplementation(node_pb2_grpc.RaftServiceServicer):
                 response = stub.ReplicateLogs(request)
 
                 for log_entry in response.log_entries:
-                    # print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$", log_entry)
-                    if self.validate_log_entry(log_entry):  # Check log consistency
+                    if self.validate_log_entry(log_entry):  # Checking log consistency
                         self.apply_log_entry(log_entry)
                     else:
-                        # Log inconsistency detected, handle accordingly
                         print(f"Log inconsistency detected for entry {log_entry.index} in log replication from leader.")
-                        # Possible actions: request leader to resend logs, perform snapshot, etc.
 
                 print(f"Node {self.node_id} logs updated successfully.")
             except Exception as e:
@@ -103,10 +100,8 @@ class RaftNodeImplementation(node_pb2_grpc.RaftServiceServicer):
 
     def validate_log_entry(self, log_entry):
         if log_entry.index < len(self.log):
-            # Check if the log entry term matches with the current term in the follower's log
             return self.log[log_entry.index]['term'] == log_entry.term
         else:
-            # If the log entry index is beyond the follower's log, it's considered consistent
             return True
 
     def apply_log_entry(self, log_entry):
@@ -119,7 +114,6 @@ class RaftNodeImplementation(node_pb2_grpc.RaftServiceServicer):
             'value': log_entry.value,
             'index': log_entry.index
         }
-        # Write the log entry to the log file
         if(log_entry.operation=="SET"):
             with open(f"logs_node_{self.node_id}/logs.txt", "a") as f:
                 f.write(f"{self.log[log_entry.index]['operation']} {self.log[log_entry.index]['key']} {self.log[log_entry.index]['value']} {self.log[log_entry.index]['term']}\n")
@@ -662,7 +656,7 @@ class RaftNodeImplementation(node_pb2_grpc.RaftServiceServicer):
 if  __name__ == '__main__':
     node_id = int(input("Enter the node id: "))
     # port = int(input("Enter the port number: "))
-    node_ips = {1:'34.70.228.40:50051', 2:'35.193.190.224:50052', 3:'34.71.75.56:50053',4: '34.135.218.39:50054', 5:'35.226.130.79:50055'}
+    node_ips = {1:'localhost:50051', 2:'localhost:50052', 3:'localhost:50053', 4:'localhost:50054', 5:'localhost:50055'}
     port=int(node_ips[node_id].split(":")[1])
     server = grpc.server(futures.ThreadPoolExecutor(max_workers=10))
     raft_node = RaftNodeImplementation(node_id, port, node_ips) 
